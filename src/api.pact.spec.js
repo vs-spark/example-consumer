@@ -81,7 +81,7 @@ describe('API Pact test', () => {
     });
   });
   describe('retrieving products', () => {
-    test('products exists', async () => {
+    test('products exist', async () => {
       // set up Pact interactions
       const expectedProduct = {
         id: '10',
